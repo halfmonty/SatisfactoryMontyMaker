@@ -32,7 +32,7 @@ export class WelcomeScene extends Phaser.Scene {
     }
 
     update(): void {
-        if(this.startKey.isDown) {
+        if(this.startKey.isDown || this.input.manager.activePointer.isDown) {
             this.scene.start("HudScene");
             this.scene.start("GameScene");
             this.scene.bringToTop("HudScene");

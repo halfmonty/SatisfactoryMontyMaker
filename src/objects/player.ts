@@ -43,7 +43,8 @@ export class Player extends Phaser.GameObjects.Sprite {
             ["LEFT", this.addKey("LEFT")],
             ["RIGHT", this.addKey("RIGHT")],
             ["DOWN", this.addKey("DOWN")],
-            ["JUMP", this.addKey("SPACE")]
+            ["JUMP", this.addKey("SPACE")],
+            ["JUMP2", this.addKey("UP")]
         ]);
 
         //physics
@@ -91,7 +92,7 @@ export class Player extends Phaser.GameObjects.Sprite {
         }
 
         // Jumping
-        if(this.keys.get("JUMP").isDown && !this.isJumping) {
+        if((this.keys.get("JUMP").isDown || this.keys.get("JUMP2").isDown) && !this.isJumping) {
             this.body.setVelocityY(-400);
             this.isJumping = true;
         }
