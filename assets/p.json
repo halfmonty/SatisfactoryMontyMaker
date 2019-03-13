@@ -1,0 +1,34 @@
+{
+  "preload": {"files": [
+    {
+      "type": "bitmapFont",
+      "key": "font",
+      "textureURL": "assets/font/font.png",
+      "fontDataURL": "assets/font/font.fnt"
+    },
+    {
+      "type": "tilemapTiledJSON",
+      "key": "level",
+      "url": "assets/maps/level.json"
+    },
+    {
+      "type": "image",
+      "key": "ground",
+      "url": "assets/maps/ground.png"
+    },
+    {
+      "type": "atlas",
+      "key": "player",
+      "textureURL": "assets/sprites/mario.png",
+      "atlasURL": "assets/sprites/mario.json",
+      "format": "TEXTURE_ATLAS_JSON_ARRAY"
+    }
+  ]},
+  "meta": {
+    "generated": "1552273646969",
+    "app": "Phaser Editor",
+    "url": "https://phasereditor2d.com",
+    "version": "1.0",
+    "copyright": "Arian Fornaris (c) 2015,2018"
+  }
+}

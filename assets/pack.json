@@ -1,0 +1,28 @@
+{
+    "preload": {
+        "files": [
+            {
+                "type": "bitmapFont",
+                "key": "font",
+                "textureURL": "./assets/font/font.png",
+                "fontDataURL": "./assets/font/font.fnt"
+            },
+            {
+                "type": "tilemapTiledJSON",
+                "key": "level",
+                "url": "./assets/maps/level.json"
+            },
+            {
+                "type": "atlas",
+                "key": "player",
+                "textureURL": "./assets/sprites/mario.png",
+                "atlasURL": "./assets/sprites/mario.json"
+            },
+            {
+                "type": "image",
+                "key": "ground",
+                "url": "./assets/maps/ground.png"
+            }
+        ]
+    }
+}
