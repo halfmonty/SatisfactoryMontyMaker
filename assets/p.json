@@ -13,8 +13,13 @@
     },
     {
       "type": "image",
-      "key": "ground",
-      "url": "assets/maps/ground.png"
+      "key": "terrain",
+      "url": "assets/maps/terrain.png"
+    },
+    {
+      "type": "image",
+      "key": "blank",
+      "url": "assets/maps/blank.png"
     },
     {
       "type": "atlas",
